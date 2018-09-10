@@ -46,7 +46,7 @@ else: #if no basic wrong input, move ahead
             print(str(date)+" "+str(month)+" "+str(year))
 
     elif date==31:
-        if month in mon31: #months with 31 days 
+        if month in mon31: #months with 31 days
             month=month+1
             print("1 "+str(month)+" "+str(year))
         else:
